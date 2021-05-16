@@ -5,6 +5,8 @@
 
 }
 
+
+/* header style start */
 header {
 
     padding: 35px 20px;
@@ -38,3 +40,4 @@ header a {
 header nav ul li a {
     padding: 8px 8px;
 }
+
