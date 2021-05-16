@@ -1,4 +1,10 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: rgba(19, 136, 87, 1);
     --secondary-color: rgba(255,255,255,1);
@@ -13,14 +19,17 @@ header {
     background: var(--primary-color);
     display: flex;
     justify-content: space-between;
+    width: 82%;
 }
 
 header h1 {
     color: var(--secondary-color);
 }
 
-header nav {
-    
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--secondary-color);
 }
 
 header nav ul {
@@ -41,3 +50,18 @@ header nav ul li a {
     padding: 8px 8px;
 }
 
+.project-box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 20px;
+    background: var(--primary-color);
+    flex: 1;
+
+}
+.project img {
+    width: 100%;
+}
