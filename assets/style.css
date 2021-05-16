@@ -1,0 +1,40 @@
+
+:root {
+    --primary-color: rgba(19, 136, 87, 1);
+    --secondary-color: rgba(255,255,255,1);
+
+}
+
+header {
+
+    padding: 35px 20px;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: var(--secondary-color);
+}
+
+header nav {
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+
+}
+
+header nav ul li a {
+    padding: 8px 8px;
+}
