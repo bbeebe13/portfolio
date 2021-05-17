@@ -49,19 +49,80 @@ header a {
 header nav ul li a {
     padding: 8px 8px;
 }
+/*header syle end */
 
+/* About me style start */
+.about-me {
+    margin: 10px 10px;
+    padding: 20px 20px;
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.about-me img {
+    width: 20%;
+}
+/* About me style end */
+
+/* Project style start */
+.content h2 {
+    margin: 10px 10px;
+    padding: 20px 20px;
+}
 .project-box {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
 }
 
+.first-project {
+    margin: 20px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100%;
+}
+.first-project img {
+    width: 100%;
+}
 .project {
     margin: 20px;
     background: var(--primary-color);
     flex: 1;
-
+    color: var(--secondary-color);
+    width: 50%;
 }
 .project img {
     width: 100%;
+}
+
+.project a, .first-project a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.project h3, .project h4, .first-project h3, .first-project h4 {
+    padding: 5px 10px;
+}
+
+.project p, .first-project p {
+    padding: 5px 10px;
+}
+/* project style end */
+
+/* contact information style start */
+.contact {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 82%;
+}
+/* contact information style end */
+
+/* footer style start */
+footer {
+    background: var(--primary-color);
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 82%;
 }
